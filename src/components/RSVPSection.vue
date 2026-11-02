@@ -72,11 +72,13 @@ function submitRsvp() {
       <form class="rsvp-card reveal" @submit.prevent="submitRsvp" novalidate>
         <label class="rsvp-field">
           <span>Guest name</span>
-          <input v-model="response.name" autocomplete="name" name="name" required maxlength="80" placeholder="Your name" />
+          <input v-model="response.name" autocomplete="name" name="name" required maxlength="80"
+            placeholder="Your name" />
         </label>
         <label class="rsvp-field">
           <span>Mobile number</span>
-          <input v-model="response.mobile" autocomplete="tel" inputmode="tel" name="mobile" required maxlength="20" placeholder="Your mobile number" />
+          <input v-model="response.mobile" autocomplete="tel" inputmode="tel" name="mobile" required maxlength="20"
+            placeholder="Your mobile number" />
         </label>
         <label class="rsvp-field">
           <span>Number of guests</span>
@@ -91,7 +93,8 @@ function submitRsvp() {
         </label>
         <label class="rsvp-field rsvp-field--wide">
           <span>Wishes or a message <small>(optional)</small></span>
-          <textarea v-model="response.message" name="message" rows="3" maxlength="500" placeholder="Send the couple a little love…"></textarea>
+          <textarea v-model="response.message" name="message" rows="3" maxlength="500"
+            placeholder="Send the couple a little love…"></textarea>
         </label>
         <p v-if="error" class="rsvp-feedback rsvp-feedback--error" role="alert">{{ error }}</p>
         <p v-if="status" class="rsvp-feedback" role="status">{{ status }}</p>
