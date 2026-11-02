@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" fill="none">
+  <defs>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D6B66F"/>
+      <stop offset=".48" stop-color="#8E6334"/>
+      <stop offset="1" stop-color="#E4CB8D"/>
+    </linearGradient>
+    <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#5D1724"/>
+      <stop offset="1" stop-color="#260B13"/>
+    </linearGradient>
+    <radialGradient id="lamp">
+      <stop stop-color="#FFE9A2" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#D69D3B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="carving" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M19 3 23 14 35 19 23 23 19 35 15 23 3 19 15 14 19 3Z" stroke="#E8CD8C" stroke-opacity=".42" stroke-width="1.5"/>
+      <circle cx="19" cy="19" r="3" fill="#E8CD8C" fill-opacity=".4"/>
+    </pattern>
+    <g id="leaf">
+      <path d="M0 0C-15-17-12-34 0-40 12-34 15-17 0 0Z" fill="#296244" stroke="#D3B468" stroke-width="1.6"/>
+      <path d="M0-2v-32" stroke="#D9C176" stroke-width="1.2"/>
+    </g>
+    <g id="pillar">
+      <path d="M-45 0h90l-8 22h-74L-45 0Z" fill="url(#stone)"/>
+      <path d="M-34 24h68v18h-68V24Z" fill="#5A1825" stroke="#D7B466" stroke-width="2"/>
+      <path d="M-27 44h54l12 28v322l-12 24h-54l-12-24V72l12-28Z" fill="url(#stone)" stroke="#E6CC8A" stroke-width="2"/>
+      <path d="M-18 58h36v338h-36V58Z" fill="url(#carving)" opacity=".8"/>
+      <path d="M-35 77h70M-35 385h70" stroke="#4F1621" stroke-width="5"/>
+      <path d="M-43 420h86v24h-86zM-54 446h108v15H-54z" fill="url(#stone)" stroke="#E6CC8A" stroke-width="2"/>
+    </g>
+    <g id="lamp">
+      <ellipse cx="0" cy="20" rx="39" ry="15" fill="url(#lamp)"/>
+      <path d="M0-44c-11 13-9 24 0 30 9-6 11-17 0-30Z" fill="#F5C752"/>
+      <path d="M-5-7C-22 8-29 17-34 27h68C29 17 22 8 5-7H-5Z" fill="url(#stone)" stroke="#FFE4A0" stroke-width="2"/>
+      <path d="M0 20v91M-13 111h26M-20 121h40M-32 137h64M-48 150h96" stroke="#D8B66A" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-38 154q38 14 76 0v9q-38 17-76 0v-9Z" fill="#9E702E" stroke="#F0D78E" stroke-width="2"/>
+      <circle cx="0" cy="35" r="3" fill="#FFF2BC"/>
+      <circle cx="-19" cy="32" r="3" fill="#FFF2BC"/>
+      <circle cx="19" cy="32" r="3" fill="#FFF2BC"/>
+    </g>
+  </defs>
+
+  <g opacity=".9">
+    <path d="M0 1000V742h100v-39h82v-55h98v-63h100V515h780v70h100v63h98v55h82v39h100v258H0Z" fill="url(#deep)" stroke="url(#stone)" stroke-width="5"/>
+    <path d="M28 980V770h86v-39h81v-54h97v-61h99v-74h658v74h99v61h97v54h81v39h86v210H28Z" fill="url(#carving)" opacity=".5"/>
+    <path d="M104 726h1232M195 665h1050M295 599h850M395 528h650" stroke="#E1C47B" stroke-opacity=".72" stroke-width="5"/>
+    <path d="M138 707h1164M232 648h976M329 582h782M424 510h592" stroke="#45121D" stroke-width="10"/>
+  </g>
+
+  <g>
+    <path d="M483 500V258h474v242" fill="url(#deep)" stroke="url(#stone)" stroke-width="6"/>
+    <path d="M513 477V280h414v197" fill="url(#carving)" opacity=".68"/>
+    <path d="M457 265h526l-35-43H492l-35 43Z" fill="url(#stone)" stroke="#F0D78F" stroke-width="4"/>
+    <path d="M510 214h420l-35-40H545l-35 40Z" fill="url(#deep)" stroke="url(#stone)" stroke-width="5"/>
+    <path d="M563 165h314l-30-37H593l-30 37Z" fill="url(#stone)" stroke="#F0D78F" stroke-width="4"/>
+    <path d="M614 118h212l-25-35H639l-25 35Z" fill="url(#deep)" stroke="url(#stone)" stroke-width="4"/>
+    <path d="M661 73h118l-59-58-59 58Z" fill="url(#stone)" stroke="#F0D78F" stroke-width="4"/>
+    <path d="M720 15v-22M706 24h28" stroke="#F2D58A" stroke-width="5" stroke-linecap="round"/>
+    <path d="M506 293h428M506 475h428" stroke="#D9B76A" stroke-width="3"/>
+    <path d="M548 350c0-41 31-74 70-74s70 33 70 74v124H548V350ZM752 350c0-41 31-74 70-74s70 33 70 74v124H752V350Z" fill="#321018" stroke="#E5C982" stroke-width="4"/>
+    <path d="M582 474V354c0-22 16-40 36-40s36 18 36 40v120M786 474V354c0-22 16-40 36-40s36 18 36 40v120" stroke="#C9A255" stroke-width="4"/>
+    <path d="M704 350h32v125h-32z" fill="#D6B66F"/>
+    <circle cx="720" cy="336" r="17" fill="#8C1827" stroke="#F0D78F" stroke-width="3"/>
+    <path d="M720 322c-16-18-32 5 0 21 32-16 16-39 0-21Z" fill="#F1C453"/>
+  </g>
+
+  <g opacity=".95">
+    <use href="#pillar" x="146" y="505"/>
+    <use href="#pillar" x="1294" y="505"/>
+    <path d="M74 493h1292v25H74z" fill="url(#stone)" stroke="#F0D78F" stroke-width="3"/>
+    <path d="M84 485q636-131 1272 0" stroke="#D9B76A" stroke-width="5"/>
+  </g>
+
+  <g opacity=".98">
+    <path d="M42 163q678 154 1356 0" stroke="#D5B46C" stroke-width="5"/>
+    <path d="M49 172q671 154 1342 0" stroke="#577747" stroke-width="2"/>
+    <use href="#leaf" transform="translate(95 179) rotate(-64)"/>
+    <use href="#leaf" transform="translate(160 192) rotate(-54)"/>
+    <use href="#leaf" transform="translate(225 206) rotate(-46)"/>
+    <use href="#leaf" transform="translate(290 218) rotate(-39)"/>
+    <use href="#leaf" transform="translate(355 229) rotate(-32)"/>
+    <use href="#leaf" transform="translate(420 238) rotate(-25)"/>
+    <use href="#leaf" transform="translate(485 245) rotate(-18)"/>
+    <use href="#leaf" transform="translate(550 250) rotate(-12)"/>
+    <use href="#leaf" transform="translate(615 253) rotate(-7)"/>
+    <use href="#leaf" transform="translate(680 255) rotate(-3)"/>
+    <use href="#leaf" transform="translate(745 255) rotate(3)"/>
+    <use href="#leaf" transform="translate(810 253) rotate(7)"/>
+    <use href="#leaf" transform="translate(875 250) rotate(12)"/>
+    <use href="#leaf" transform="translate(940 245) rotate(18)"/>
+    <use href="#leaf" transform="translate(1005 238) rotate(25)"/>
+    <use href="#leaf" transform="translate(1070 229) rotate(32)"/>
+    <use href="#leaf" transform="translate(1135 218) rotate(39)"/>
+    <use href="#leaf" transform="translate(1200 206) rotate(46)"/>
+    <use href="#leaf" transform="translate(1265 192) rotate(54)"/>
+    <use href="#leaf" transform="translate(1330 179) rotate(64)"/>
+  </g>
+
+  <g opacity=".92">
+    <use href="#lamp" x="275" y="746"/>
+    <use href="#lamp" x="1165" y="746"/>
+  </g>
+
+  <g fill="#F2DCC0" stroke="#C4974D" stroke-width="2">
+    <g transform="translate(720 837)">
+      <path d="M0 0c-52-46-34-91 0-69 34-22 52 23 0 69Z"/>
+      <path d="M0 0c-74-22-81-67-40-59 17-36 59-13 40 59Z"/>
+      <path d="M0 0c74-22 81-67 40-59-17-36-59-13-40 59Z"/>
+      <path d="M0 0c-34-64-9-96 15-63 39-2 44 43-15 63Z"/>
+      <path d="M0 0c34-64 9-96-15-63-39-2-44 43 15 63Z"/>
+      <circle r="13" fill="#DDBB66"/>
+    </g>
+    <g opacity=".8" transform="translate(70 865) scale(.7)">
+      <circle r="59" stroke-dasharray="3 7"/>
+      <circle r="39"/>
+      <path d="M0-31 8-8 31 0 8 8 0 31-8 8-31 0-8-8Z"/>
+    </g>
+    <g opacity=".8" transform="translate(1370 865) scale(.7)">
+      <circle r="59" stroke-dasharray="3 7"/>
+      <circle r="39"/>
+      <path d="M0-31 8-8 31 0 8 8 0 31-8 8-31 0-8-8Z"/>
+    </g>
+  </g>
+</svg>

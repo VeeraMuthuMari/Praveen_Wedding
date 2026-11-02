@@ -1,0 +1,62 @@
+@keyframes invitation-rise {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes opening-photo-arrive {
+  from { transform: scale(1.055); }
+  to { transform: scale(1); }
+}
+
+@keyframes date-number-arrive {
+  from { opacity: .35; transform: scale(.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes calendar-rule-draw {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes petal-windfall {
+  0% { opacity: 0; transform: translate3d(0, -8vh, 0) rotate(var(--rotation)) scale(.72); }
+  10% { opacity: var(--petal-opacity); }
+  28% { transform: translate3d(var(--wind-a), 28vh, 0) rotate(calc(var(--rotation) + 115deg)) scale(1); }
+  53% { transform: translate3d(var(--wind-b), 54vh, 0) rotate(calc(var(--rotation) + 230deg)) scale(.91); }
+  77% { opacity: calc(var(--petal-opacity) * .75); transform: translate3d(var(--wind-c), 79vh, 0) rotate(calc(var(--rotation) + 335deg)) scale(.83); }
+  100% { opacity: 0; transform: translate3d(var(--wind-a), 112vh, 0) rotate(calc(var(--rotation) + 470deg)) scale(.7); }
+}
+
+@keyframes petal-sway {
+  from { transform: translateX(calc(var(--swing) * -1)) rotate(-18deg); }
+  to { transform: translateX(var(--swing)) rotate(18deg); }
+}
+
+@keyframes golden-glimmer {
+  0%, 100% { opacity: .14; transform: scale(.65) rotate(0deg); }
+  48% { opacity: .78; transform: scale(1.22) rotate(45deg); }
+}
+
+@keyframes invitation-button-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(234,215,173,0); }
+  50% { box-shadow: 0 0 0 8px rgba(234,215,173,.14); }
+}
+
+@keyframes music-orbit {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes lamp-glow {
+  0%, 100% { opacity: .8; transform: scale(.94); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+
+@keyframes thoranam-sway {
+  from { transform: rotate(-1deg); }
+  to { transform: rotate(1deg); }
+}
+
+@keyframes leaf-sway {
+  from { transform: translateX(-50%) rotate(calc(var(--turn) - 3deg)); }
+  to { transform: translateX(-50%) rotate(calc(var(--turn) + 3deg)); }
+}
